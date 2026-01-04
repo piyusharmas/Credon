@@ -13,9 +13,8 @@ function PricingPage() {
         <>
             <NavBar />
             <Hero />
-            <Brokerage />
-
             <OpenAccounts />
+            <Brokerage />
             <Footer />
         </>
      );
