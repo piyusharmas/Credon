@@ -12,7 +12,6 @@ function SupportPage() {
             <NavBar />
             <Hero />
             <CreateTicket />
-            <OpenAccounts />
             <Footer />
         </>
      );

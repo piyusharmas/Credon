@@ -81,3 +81,36 @@ button:focus-visible {
 .pb:hover {
   border:solid 1px grey;
 }
+
+#supportHero{
+  background-color: rgb(56,126,289);
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px
+}
+ 
+
+#supportHero a{
+  text-decoration: underline;
+  color: white;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.lema{
+  margin-left: 180px;
+}
+
+#supportHero ol{
+  margin-left: 30px;
+}
