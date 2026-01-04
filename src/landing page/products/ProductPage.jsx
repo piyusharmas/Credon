@@ -3,22 +3,21 @@ import React from 'react'
 import OpenAccounts from '../OpenAccount';
 import NavBar from '../NavBar';
 import Footer from '../Footer';
-
 import Hero from './Hero';
-import Brokerage from './Brokerage';
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
 
-
-function PricingPage() {
+function ProductPage() {
     return ( 
         <>
             <NavBar />
             <Hero />
-            <Brokerage />
-
+            <LeftSection />
+            <RightSection />
             <OpenAccounts />
             <Footer />
         </>
      );
 }
 
-export default PricingPage;
+export default ProductPage;
