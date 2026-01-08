@@ -2,9 +2,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Apps from "./App.jsx";
-import Funds from "./Funds.jsx.";
+import Funds from "./Funds.jsx";
 import Holdings from "./Holdings.jsx";
-
 import Orders from "./Orders.jsx";
 import Positions from "./Positions.jsx";
 import Summary from "./Summary.jsx";
