@@ -1,6 +1,7 @@
 import React , {useState, useEffect} from "react";
 // import { holdings } from "../data/data";
 import axios from "axios";
+import { VerticalGraph } from "./VerticalGraph";
 
 const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
@@ -15,6 +16,19 @@ const Holdings = () => {
         console.error("Error fetching holdings:", error);
       });
   }, []);
+
+  const labels=allHoldings.map((subArray)=>subArray["name"]);
+
+  const data={
+    labels,
+    datasets:[
+      {
+        label:"Stock Price",
+        data: allHoldings.map((stock)=>stock.price),
+        backgroundColor:"rgba(71, 30, 184, 0.77)"
+      },
+    ],
+  };
   
   return (
     <>
@@ -74,6 +88,7 @@ const Holdings = () => {
           <p>P&L</p>
         </div>
       </div>
+      <VerticalGraph data={data} />
     </>
   );
 };
