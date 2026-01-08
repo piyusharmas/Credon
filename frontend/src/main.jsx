@@ -8,7 +8,6 @@ import SupportPage from './landingpage/support/SupportPage'
 import AboutPage from './landingpage/about/AboutPage'
 import PricingPage from './landingpage/pricing/PricingPage'
 import ErrorPage from './landingpage/Error'
-import Navbar from './landingpage/NavBar'
 
 
 createRoot(document.getElementById('root')).render(
