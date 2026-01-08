@@ -6,7 +6,7 @@ import Pricing from './Pricing';
 import Education from './Education';
 
 import OpenAccounts from '../OpenAccount';
-import NavBar from '../NavBar';
+import NavBar from '../Navbar';
 import Footer from '../Footer';
 
 
