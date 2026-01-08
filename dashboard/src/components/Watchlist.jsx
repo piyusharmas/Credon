@@ -2,8 +2,8 @@ import React, { useState, useContext } from "react";
 import{Tooltip,Grow } from '@mui/material'
 import{ BarChartOutlined, KeyboardArrowDown , KeyboardArrowUp, MoreHoriz, MoreHorizOutlined} from '@mui/icons-material'
 import { watchlist } from "../data/data";
-import GeneralContext from "./GeneralContext";
-import {  DoughnutChart } from "./DonoughtChart";
+import GeneralContext from "./GeneralContext.jsx";
+import {  DoughnutChart } from "./DonoughtChart.jsx";
 
 
 const WatchList = () => {
