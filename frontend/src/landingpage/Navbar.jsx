@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function NavBar() {
   return (
     <nav
       class="navbar navbar-expand-lg border-bottom p-2 fs-5"
@@ -53,4 +53,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
